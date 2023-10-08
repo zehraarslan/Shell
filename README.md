@@ -39,10 +39,10 @@ Ayrıca, aşağıdaki yerleşik işlevleri uygulamalısınız:
 
 Bu projenin geliştirilmesi iki ana bölüme ayrılabilir: ayrıştırma ve yürütme.
 
-- Ayrıştırma
+- Ayrıştırma : 
 Kullanıcı girdilerini işlemek ve komutları ayrıştırmak için gereklidir. Bu aşamada kullanıcı girdisi tokenlere ayrılır ve bir sözdizimi ağacı (syntax tree) veya soyut sözdizimi ağacı (AST) oluşturulur. Ayrıştırma, özel bir dil grameri kullanılarak yapılır.
 
-- Yürütme
+- Yürütme : 
 Minishell'in yürütme aşaması, kullanıcı komutlarını gerçek dünyada yürütmek için gereklidir. Bu aşama, komutların dosya tanımlayıcılarını yönetme, süreçleri çoğaltma ve komutları gerçekleştirme işlemlerini içerir.
 
     --Dosya Tanımlayıcıları Yönetimi: Yürütme sırasında, komutların giriş ve çıkışını yönlendirmek için dosya tanımlayıcıları kullanılır. Dosya tanımlayıcılarının uygun şekilde açılması, yönlendirilmesi ve kapatılması gereklidir.
