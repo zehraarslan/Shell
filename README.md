@@ -1,7 +1,3 @@
-# shell
-
-Tabii ki, aşağıda Minishell projesi için Türkçe bir README önerisi bulabilirsiniz:
-
 # Minishell Projesi
 
 Minishell projesi, 42 okulu müfredatının en zorlayıcı ve keyifli projelerinden biridir. Bu projede bir dizi test durumuyla başa çıkmak ve yazılım mimarisi, sistem çağrıları, dosya tanımlayıcıları gibi birçok konuyu öğrenmek zorunda kalırsınız. Aynı zamanda takım koordinasyonu, yönetimi ve iş bölümü gibi yeteneklerinizi de geliştirebilirsiniz.
