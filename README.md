@@ -45,13 +45,13 @@ Kullanıcı girdilerini işlemek ve komutları ayrıştırmak için gereklidir. 
 - Yürütme
 Minishell'in yürütme aşaması, kullanıcı komutlarını gerçek dünyada yürütmek için gereklidir. Bu aşama, komutların dosya tanımlayıcılarını yönetme, süreçleri çoğaltma ve komutları gerçekleştirme işlemlerini içerir.
 
-Dosya Tanımlayıcıları Yönetimi: Yürütme sırasında, komutların giriş ve çıkışını yönlendirmek için dosya tanımlayıcıları kullanılır. Dosya tanımlayıcılarının uygun şekilde açılması, yönlendirilmesi ve kapatılması gereklidir.
+    --Dosya Tanımlayıcıları Yönetimi: Yürütme sırasında, komutların giriş ve çıkışını yönlendirmek için dosya tanımlayıcıları kullanılır. Dosya tanımlayıcılarının uygun şekilde açılması, yönlendirilmesi ve kapatılması gereklidir.
 
-Süreçlerin Çoğaltılması: Bazı komutlar, arka planda çalışan yeni süreçlerin oluşturulmasını gerektirebilir. Bu süreçler, ana programdan bağımsız olarak çalışır ve sonuçları ana programla paylaşır.
+    --Süreçlerin Çoğaltılması: Bazı komutlar, arka planda çalışan yeni süreçlerin oluşturulmasını gerektirebilir. Bu süreçler, ana programdan bağımsız olarak çalışır ve sonuçları ana programla paylaşır.
 
-Komutların Gerçekleştirilmesi: AST veya sözdizimi ağacı, hangi komutların ve işlemlerin gerçekleştirileceğini belirler. Bu, kullanıcının verdiği komutların işlenmesi, sonuçlarının alınması ve gerektiğinde kullanıcının önüne sunulması anlamına gelir.
+    --Komutların Gerçekleştirilmesi: AST veya sözdizimi ağacı, hangi komutların ve işlemlerin gerçekleştirileceğini belirler. Bu, kullanıcının verdiği komutların işlenmesi, sonuçlarının alınması ve gerektiğinde kullanıcının önüne sunulması anlamına gelir.
 
-Minishell'in yürütme aşaması, kullanıcı komutlarını sistemin anlayabileceği bir şekilde çevirir ve bu komutları işletim sistemi üzerinde çalıştırır. Bu, kullanıcının istediği işlemleri gerçekleştirmesini sağlar.
+    --Minishell'in yürütme aşaması, kullanıcı komutlarını sistemin anlayabileceği bir şekilde çevirir ve bu komutları işletim sistemi üzerinde çalıştırır. Bu, kullanıcının istediği işlemleri gerçekleştirmesini sağlar.
 
 ## Proje Zorlukları
 
