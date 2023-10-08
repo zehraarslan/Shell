@@ -31,11 +31,11 @@ Minishell, aşağıdaki temel işlevselliği içermelidir:
 
 Ayrıca, aşağıdaki yerleşik işlevleri uygulamalısınız:
 
-- echo (sadece `-n` seçeneği)
+- echo
 - exit
-- env (herhangi bir seçenek veya argüman olmadan)
-- export (herhangi bir seçenek olmadan)
-- unset (herhangi bir seçenek olmadan)
+- env
+- export
+- unset
 - cd
 - pwd
 
@@ -52,11 +52,5 @@ Bu projenin geliştirilmesi iki ana bölüme ayrılabilir: ayrıştırma ve yür
 Bu projenin geliştirilmesi sırasında bazı zorluklarla karşılaşabilirsiniz. Özellikle işaretleme, boru hattı işlemleri ve dosya yönlendirmeleri gibi konular karmaşık olabilir. Ayrıca, yerleşik işlevlerin doğru bir şekilde çalıştığından emin olmak için özen göstermelisiniz.
 
 Proje geliştirme aşamasında, işbirliği yaptığınız takım üyeleriyle uyum içinde çalışmak ve işleri etkili bir şekilde dağıtmak önemlidir.
-
-## Sonuç
-
-Minishell projesi, zorluğuna rağmen, yazılım geliştirme ve sistem çağrıları gibi birçok konuyu öğrenmek için harika bir fırsat sunar. Ayrıca, işbirliği yapma, yönetim ve sorun giderme yeteneklerinizi geliştirmenize yardımcı olabilir.
-
-Projeyle ilgili daha fazla ayrıntıyı kodun kendisinde bulabilirsiniz. Kod örnekleri ve daha fazla bilgi için GitHub hesabımı ziyaret edebilirsiniz: [GitHub - m4nnb3ll](https://github.com/m4nnb3ll).
 
 Umarım bu README belgesi, Minishell projesini anlama ve başarıyla tamamlama sürecinize yardımcı olur. Başarılar dilerim!
